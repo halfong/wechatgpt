@@ -2,7 +2,7 @@ const { Sequelize, Model } = require("sequelize");
 const sqlite = new Sequelize('db', 'aisk', 'ksia', {
   dialect: 'sqlite',
   storage: `${__dirname}/db.sqlite`,
-  logging: true,
+  // logging: false,
 });
 
 //定义模型
